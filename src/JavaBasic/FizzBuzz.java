@@ -1,5 +1,7 @@
+package JavaBasic;
+
 /**
- * This program plays the game "FizzBuzz". It counts to 100, replacing each
+ * This program plays the game "JavaBasic.FizzBuzz". It counts to 100, replacing each
  * multiple of 5 with the word "fizz", each multiple of 7 with the word "buzz",
  * and each multiple of both with the word "fizzbuzz". It uses the modulo
  * operator (%) to determine if a number is divisible by another.

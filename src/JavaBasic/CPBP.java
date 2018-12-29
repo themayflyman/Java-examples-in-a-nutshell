@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * A program that counts from 1 to 15, printing out each number, and then
  * counts backwards by twos to 1, again printing out each number

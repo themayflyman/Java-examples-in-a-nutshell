@@ -1,3 +1,5 @@
+package JavaBasic;
+
 public class Factorial3 {
     private static long[] table = new long[21];
     private static int last = 0;

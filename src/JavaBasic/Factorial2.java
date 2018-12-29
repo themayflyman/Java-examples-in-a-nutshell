@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This class shows a recursive method to compute factorials. This method
  * calls itself repeatedly based on the formula: n! = n * (n-1)!

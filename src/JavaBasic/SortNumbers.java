@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This class demonstrates how to sort numbers using a simple algorithm
  */

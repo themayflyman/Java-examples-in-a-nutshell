@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This program prints out the first 20 numbers of the fibonacci sequence.
  * Each term is formed by adding together the previous two terms in the

@@ -1,7 +1,9 @@
+package JavaBasic;
+
 import java.io.*;
 
 /**
- * A program uses SortNumbers class to sort an array of 100 floating-point numbers. Then,
+ * A program uses JavaBasic.SortNumbers class to sort an array of 100 floating-point numbers. Then,
  * interactively prompt the user for numeric input and display the next larger and smaller
  * number from the array, using an efficient binary search algorithm to find the desired
  * position in the sorted way.

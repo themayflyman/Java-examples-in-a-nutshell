@@ -1,3 +1,5 @@
+package JavaBasic;
+
 import java.math.BigInteger;  // Import BigInteger from java.math package
 import java.util.*;  // Import all classes (including ArrayList) from java.util
 

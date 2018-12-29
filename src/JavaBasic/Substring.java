@@ -1,10 +1,12 @@
+package JavaBasic;
+
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 /**
  * A program that takes two numbers and a string as command-line arguments
  * and prints out the substring of the string specified by the two numbers.
  * For example:
- *     % java Substring Hello 1 3
+ *     % java JavaBasic.Substring JavaBasic.Hello 1 3
  * prints out:
  *     ell
  */
@@ -30,7 +32,7 @@ public class Substring {
         // thrown if args[0], args[1], args[2] is undefined
         catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("You must specify three arguments and ");
-            System.out.println("Usage: java Substring <String> <Integer> <Integer>");
+            System.out.println("Usage: java JavaBasic.Substring <String> <Integer> <Integer>");
         }
         // The second number or third number is greater than the length of the string or less than 0
         catch (StringIndexOutOfBoundsException e) {

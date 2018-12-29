@@ -1,3 +1,5 @@
+package JavaBasic;
+
 import java.io.*;
 
 /**
@@ -9,7 +11,7 @@ public class InputReverser {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
         for(;;) {
-            System.out.print("<InputReverser> ");
+            System.out.print("<JavaBasic.InputReverser> ");
             String line = in.readLine();
 
             if(line.equals("ituq")) break;

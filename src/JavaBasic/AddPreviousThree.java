@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This program prints out the first 20 numbers of a series.
  * Each term of this series is formed by adding the previous three terms,

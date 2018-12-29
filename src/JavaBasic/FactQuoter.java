@@ -1,3 +1,5 @@
+package JavaBasic;
+
 import java.io.*;
 
 /**
@@ -10,7 +12,7 @@ public class FactQuoter {
         // Loop forever
         for(;;) {
             // Display a prompt to the user
-            System.out.print("<FactQuoter> ");
+            System.out.print("<JavaBasic.FactQuoter> ");
             // Read a line from the user
             String line = in.readLine();
             // If we reach the end-of-file,

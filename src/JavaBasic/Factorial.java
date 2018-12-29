@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This class doesn't define a main() method, so it isn't a program by itself.
  * It does define useful method that we can use in other programs, though.

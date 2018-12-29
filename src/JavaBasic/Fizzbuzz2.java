@@ -1,5 +1,7 @@
+package JavaBasic;
+
 /**
- * This class is much like the FizzBuzz class, but uses a switch statement
+ * This class is much like the JavaBasic.FizzBuzz class, but uses a switch statement
  * instead of repeated if/else statements.
  **/
 public class Fizzbuzz2 {

@@ -1,5 +1,7 @@
+package JavaBasic;
+
 /**
- * This program computes prime numbers using the Sieve of Eratosthenes
+ * This program computes prime numbers using the JavaBasic.Sieve of Eratosthenes
  * algorithm: rule out multiples of all lower prime numbers, and anything
  * remaining is a prime. It prints out the largest prime number less than
  * or equal to the supplied command-line argument.

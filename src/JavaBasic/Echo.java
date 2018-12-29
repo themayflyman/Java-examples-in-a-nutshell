@@ -1,3 +1,5 @@
+package JavaBasic;
+
 /**
  * This program prints out all its command-line arguments.
  **/
