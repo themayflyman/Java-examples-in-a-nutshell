@@ -130,5 +130,4 @@ public class LinkedList {
                 System.out.println(l);
         }
     }
-
 }
