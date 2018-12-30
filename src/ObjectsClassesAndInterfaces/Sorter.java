@@ -3,7 +3,6 @@ package ObjectsClassesAndInterfaces;
 // These are some classes we need for internationalized string sorting
 import java.text.Collator;
 import java.text.CollationKey;
-import java.util.ConcurrentModificationException;
 import java.util.Locale;
 
 /**
@@ -83,7 +82,7 @@ public class Sorter {
      * Sort an portion of an array of ASCII strings, ignoring case. Sort into
      * ascending order if up is true, otherwise sort into descending order.
      */
-    public static void sortAsciiIgnreCase(String[] a, int from, int to,
+    public static void sortAsciiIgnoreCase(String[] a, int from, int to,
                                           Boolean up) {
         if((a == null) || (a.length < 2)) return;
         // Create a secondary array of strings that contains lowercase versions
