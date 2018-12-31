@@ -19,4 +19,13 @@ public class MailingAddress {
                 "state: " + state + '\n' +
                 "ZIP code: " + zipCode + '\n';
     }
+
+    /* A test program */
+    public static class Test {
+        public static void main(String[] args) {
+            MailingAddress m = new MailingAddress("Pete", "somewhere",
+                                                  "NY", "somewhere", "11111");
+            System.out.println(m);
+        }
+    }
 }
