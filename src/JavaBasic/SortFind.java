@@ -13,7 +13,7 @@ public class SortFind {
         int l = 0;
         int r = nums.length - 1;
         for(;;){
-            if(l>r) {
+            if(l > r) {
                 System.out.println("Can't sort");
                 return -1;
             }
