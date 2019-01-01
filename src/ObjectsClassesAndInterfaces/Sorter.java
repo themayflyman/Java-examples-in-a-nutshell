@@ -242,7 +242,7 @@ public class Sorter {
      */
     public static class Test {
         /**
-         * This subclass of ComplextNumber implements the Comarable interface
+         * This subclass of ComplexNumber implements the Comparable interface
          * and defines a compareTo() method for comparing complex numbers.
          * It compares numbers based on their magnitude. I.e. on their distance
          * from the origin.
