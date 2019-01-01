@@ -1,6 +1,19 @@
 package ObjectsClassesAndInterfaces;
 
+/**
+ * Using the Sorter.Comparer and Sorter.Comparable interfaces. A Search class with a static
+ * search() method that performs an efficient binary search for a specified object within a
+ * sorted array of objects. If the object is found in the array, search() should return the
+ * array index at which it is located. Otherwise, it should return -1.
+ */
 public class Search {
+    /**
+     * Search a specified object b within a sorted array of objects a. Objects must be implemented with
+     * Sorter.Comparable interfaces.
+     * @param a: a sorted array of objects
+     * @param b: a specified object that needs to be found
+     * @return: an array index or -1
+     */
     public static int search(Object[] a, Object b) {
         Sorter.Comparer c = new Sorter.Comparer() {
             public int compare(Object a, Object b) {
@@ -10,6 +23,16 @@ public class Search {
         return search(a, b, c);
     }
 
+    /**
+     * This is the main search routine, which performs an efficient binary search
+     * algorithm.
+     * @param a: a sorted array of objects
+     * @param b: a specified object that needs to be found
+     * @param c: a comparer used to compare two objects
+     * @return:
+     *        - if b is found, returns an array index at which it is located;
+     *        - otherwise, returns -1
+     */
     public static int search(Object[] a, Object b, Sorter.Comparer c) {
         int l = 0;
         int r = a.length - 1;
@@ -26,7 +49,16 @@ public class Search {
         }
     }
 
+    /**
+     * This nested class defines a test program that demonstrates how to use
+     * Search class to search specified Circle within a sorted array of SortableCircle.
+     */
     public static class Test {
+        /**
+         * This subclass of Circle implements the Sorter.Comparable interface
+         * and defines a compareTo() method for comparing circles.
+         * It compares circles based on their radius.
+         */
         static class SortableCircle extends Circle implements Sorter.Comparable {
             public SortableCircle(int radius, Circle.Dot center) { super(radius, center); }
             public int compareTo(Object other) { return radius - ((Circle)other).radius;}
