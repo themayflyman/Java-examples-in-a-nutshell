@@ -3,8 +3,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.text.DateFormat;
-import java.util.Date;
-import java.util.zip.DataFormatException;
 
 /**
  * This class creates and displays a window containing a list of
