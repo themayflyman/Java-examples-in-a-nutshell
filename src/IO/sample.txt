@@ -1,0 +1,4 @@
+3-3. Write a program that counts and reports the number of lines, words, and
+     characters in a specified file. Use static methods of the java.lang.Character
+     class to determine whether a given character is a space (and therefore the
+     boundary between two words).
