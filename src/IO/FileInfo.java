@@ -2,6 +2,12 @@ package IO;
 import java.io.*;
 import java.lang.Character;
 
+/**
+ * A program that counts and reports the number of lines, words and
+ * characters in a specified file. Use static methods of the java.lang.Character
+ * class to determine whether a given character is a space (and therefore the
+ * boundary between two words).
+ */
 public class FileInfo {
     public static void main(String[] args) {
         if (args.length != 1) {         // Check command-line arguments
