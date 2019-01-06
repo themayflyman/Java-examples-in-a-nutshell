@@ -42,6 +42,7 @@ public class SizeDisplayer {
                 else if (file.isDirectory())
                     System.out.println(filename + ": " +
                             dirSize(file) + " bytes");
+                // or if it's a file, prints out its name and size
                 else
                     System.out.println(filename + ": " + file.length() + " bytes");
             }
