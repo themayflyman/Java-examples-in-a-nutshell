@@ -26,6 +26,9 @@ public class SizeDisplayer {
         File dir = new File(directory);
         if(!dir.exists())
             System.err.println("FileSize: no such directory");
+        else if(!dir.isDirectory())
+            System.err.println("FileSize: " + dir.getName() +
+                               ": is not a directory");
 
         File[] files = dir.listFiles();
         // Check if files is null, if it's true, the second operand won't be evaluated
