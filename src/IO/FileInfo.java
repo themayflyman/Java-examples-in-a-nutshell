@@ -23,7 +23,7 @@ public class FileInfo {
         try {
             f = new File(filename);
             br = new BufferedReader(new FileReader(f));
-            String str = null;
+            String str;
             char tmp = 0;
             long lines = 0;
             long words = 0;
