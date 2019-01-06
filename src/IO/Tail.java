@@ -7,7 +7,7 @@ import java.io.*;
 public class Tail {
     public static void main(String[] args) {
         if (args.length != 1) {         // Check command-line arguments
-            System.err.println("Usage: java Head <filename>");
+            System.err.println("Usage: java Tail <filename>");
             System.exit(0);
         }
         // Call the tail() method

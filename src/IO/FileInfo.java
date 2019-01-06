@@ -11,7 +11,7 @@ import java.lang.Character;
 public class FileInfo {
     public static void main(String[] args) {
         if (args.length != 1) {         // Check command-line arguments
-            System.err.println("Usage: java Head <filename>");
+            System.err.println("Usage: java FileInfo <filename>");
             System.exit(0);
         }
         // Call the info() method
