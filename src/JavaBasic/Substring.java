@@ -1,6 +1,5 @@
 package JavaBasic;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 /**
  * A program that takes two numbers and a string as command-line arguments

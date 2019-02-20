@@ -3,11 +3,7 @@ import java.io.*;
 import java.net.*;
 import java.applet.Applet;
 
-import com.sun.corba.se.impl.oa.poa.AOMEntry;
-import com.sun.org.apache.bcel.internal.generic.JsrInstruction;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import netscape.javascript.JSObject;    // A special class we need
-import sun.security.krb5.internal.APOptions;
 
 /**
  * An output stream that sends HTML text to a newly created web browser window.

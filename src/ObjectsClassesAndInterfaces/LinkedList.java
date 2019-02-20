@@ -1,6 +1,5 @@
 package ObjectsClassesAndInterfaces;
 
-import sun.awt.image.ImageWatched;
 
 /**
  * This class implements a linked list that can contain any type of object

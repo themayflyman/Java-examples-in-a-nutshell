@@ -1,6 +1,5 @@
 package ObjectsClassesAndInterfaces;
 
-import com.sun.org.apache.xml.internal.security.c14n.implementations.Canonicalizer11_OmitComments;
 
 /**
  * This class represents complex numbers, and defines methods for performing
