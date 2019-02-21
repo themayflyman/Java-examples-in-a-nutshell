@@ -53,7 +53,7 @@ public class HttpClient {
         }
         catch (Exception e) {      // Report any errors that arise
             System.err.println(e);
-            System.err.println("Usage: jave HttpClient <URL> [<filename>]");
+            System.err.println("Usage: java HttpClient <URL> [<filename>]");
         }
     }
 }
