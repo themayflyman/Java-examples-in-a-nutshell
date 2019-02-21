@@ -70,7 +70,7 @@ public class SimpleProxyServer {
                               remoteport + ":\n" + e + "\n");
                     out.flush();
                     client.close();
-                    continue;;
+                    continue;
                 }
 
                 // Get server streams.
