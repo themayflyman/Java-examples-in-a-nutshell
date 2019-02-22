@@ -198,7 +198,7 @@ public class Server {
         }
     }
     /**
-     * This is the method that Listener objects call when they accpet a
+     * This is the method that Listener objects call when they accept a
      * connection from a client. It either creates a Connection object
      * for the connection and adds it to the list of current connections,
      * of, if the limit on connections has been reached, it closes the
@@ -251,7 +251,7 @@ public class Server {
 
     /**
      * This method displays status information about the server on the
-     * specfied stream. IT can be used for debugging, and is used by the
+     * specified stream. It can be used for debugging, and is used by the
      * Control service later in this example.
      */
     public synchronized void displayStatus(PrintWriter out) {
@@ -554,6 +554,13 @@ public class Server {
                             int max = Integer.parseInt(t.nextToken());
                             server.setMaxConnections(max);
                             out.print("MAX CONNECTIONS CHANGED\n");
+                        }
+                    } else if (command.equals("status")) {  // Status Display
+                        if (!authorized) {
+                            out.print("PASSWORD REQUIRED\n");
+                        }
+                        else {
+                            server.displayStatus(out);
                         }
                     } else if (command.equals("help")) {  // Help command
                         // Display command syntax. Password not required
