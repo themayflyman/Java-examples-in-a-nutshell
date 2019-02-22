@@ -4,7 +4,7 @@ import java.net.*;
 /**
  * This program waits to receive datagrams sent the specified port.
  * When it receives one, it displays the sending host and prints the
- * conntents of the datagram as a string. Then it loops and waits again.
+ * contents of the datagram as a string. Then it loops and waits again.
  */
 public class UDPReceive {
     public static final String usage = "Usage: java UDPReceive <port>";
