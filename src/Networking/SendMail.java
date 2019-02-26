@@ -3,7 +3,7 @@ import java.io.*;
 import java.net.*;
 
 /**
- * This program sends e-mail using a mailto: URL
+ * This program sends e-mail using a mailto: URL.
  */
 public class SendMail {
     public static void main(String[] args) {
