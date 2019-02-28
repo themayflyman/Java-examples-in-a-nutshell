@@ -3,7 +3,7 @@ import java.lang.reflect.*;
 
 /** A program that displays a class synopsis for the named class */
 public class ShowClass {
-    /** The main method. Print infor about the named class */
+    /** The main method. Print info about the named class */
     public static void main(String[] args) throws ClassNotFoundException {
         Class c = Class.forName(args[0]);
         print_class(c);
